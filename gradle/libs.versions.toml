@@ -11,6 +11,7 @@ firebaseCrashlyticsBuildtools = "3.0.2"
 gson = "2.10.1"
 pdfGen = "7.2.5"
 retrofitGsonConverter = "2.9.0"
+retrofit="2.9.0"
 
 [libraries]
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -23,6 +24,7 @@ constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayo
 firebase-crashlytics-buildtools = { group = "com.google.firebase", name = "firebase-crashlytics-buildtools", version.ref = "firebaseCrashlyticsBuildtools" }
 gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
 pdfGen = { group = "com.itextpdf", name = "itext7-core", version.ref = "pdfGen" }
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
 retrofitGsonConverter = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofitGsonConverter" }
 
 [plugins]

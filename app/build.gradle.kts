@@ -38,6 +38,7 @@ dependencies {
     implementation(libs.activity)
     implementation(libs.constraintlayout)
     implementation(libs.gson)
+    implementation(libs.retrofit)
     implementation(libs.pdfGen)
     implementation(libs.retrofitGsonConverter)
     implementation(libs.firebase.crashlytics.buildtools)

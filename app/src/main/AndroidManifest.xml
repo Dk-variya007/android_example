@@ -17,7 +17,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ApiCallingApp"
         tools:targetApi="33">
-
+        <activity
+            android:name=".PostActivity"
+            android:exported="false" />
         <!-- FileProvider for sharing PDFs -->
         <provider
             android:name="androidx.core.content.FileProvider"
@@ -37,6 +39,7 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

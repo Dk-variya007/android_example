@@ -32,6 +32,14 @@
         android:text="Pdf Button"
         tools:ignore="HardcodedText" />
 
+    <Button
+        android:id="@+id/apiButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Api Button"
+        tools:ignore="HardcodedText" />
+
     <!-- RecyclerView -->
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerId"

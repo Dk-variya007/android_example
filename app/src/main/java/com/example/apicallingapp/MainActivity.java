@@ -28,9 +28,8 @@ public class MainActivity extends AppCompatActivity {
     ArrayList<NameModel> nameList;
     RecyclerNameAdapter adapter;
     SharedPreferences sharedPreferences;
-    Button pdf;
+    Button pdf,apiBtn;
 
-    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,7 +40,15 @@ public class MainActivity extends AppCompatActivity {
         EditText inputName = findViewById(R.id.inputName);
         Button addButton = findViewById(R.id.addButton);
         pdf = findViewById(R.id.pdfButton);
+        apiBtn=findViewById(R.id.apiButton);
 
+        apiBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this, PostActivity.class);
+                startActivity(i);
+            }
+        });
         pdf.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
