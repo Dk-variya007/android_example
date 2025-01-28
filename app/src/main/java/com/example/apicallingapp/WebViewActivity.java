@@ -1,8 +1,6 @@
 package com.example.apicallingapp;
-
 import android.annotation.SuppressLint;
 import android.os.Bundle;
-import android.view.KeyEvent;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
