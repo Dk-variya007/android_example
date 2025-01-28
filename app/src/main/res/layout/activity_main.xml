@@ -31,6 +31,13 @@
         android:layout_marginBottom="16dp"
         android:text="Pdf Button"
         tools:ignore="HardcodedText" />
+    <Button
+        android:id="@+id/webViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Web View Button"
+        tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/apiButton"
